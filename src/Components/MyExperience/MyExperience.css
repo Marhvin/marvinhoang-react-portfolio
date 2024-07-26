@@ -1,0 +1,57 @@
+.myexperience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.myexperience-title{
+    position: relative;
+}
+.myexperience-title h1{
+    padding: 0px 30px;
+    font-size: 65px;
+    font-weight: 600;
+}
+.myexperience-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.myexperience-container{
+    display: flex;
+    gap: 80px;
+}
+.expimg{
+    width: max-content;
+    height: auto;
+}
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+.role {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center; 
+}
+.experience-item img{
+    border-radius: 100%;
+    border: 5px solid white;
+}
+.experience-item-afh img{
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.experience-item:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+.experience-item-afh:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}

@@ -31,6 +31,22 @@ img {
 .nav-connect:hover {
     transform: scale(1.05);
 }
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+    width: 37px;
+    height: auto;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
 
 
 /* Responsive design */
@@ -45,7 +61,7 @@ img {
         gap: 1em;
     }
 
-    img {
+    .navbar img {
         width: 15vw;
     }
 
